@@ -83,6 +83,10 @@ public class ChampionSelect {
                                                 System.out.println("Twitch picked");
                                                 Toolkit.getDefaultToolkit().beep();
                                             }
+                                            else if (team.equals("Red") && championId.equals("67")) {
+                                                System.out.println("Vayne picked");
+                                                Toolkit.getDefaultToolkit().beep();
+                                            }
                                             else if (team.equals("Blue") && championId.equals("84")) {
                                                 System.out.println("Akali picked");
                                                 Toolkit.getDefaultToolkit().beep();
@@ -95,6 +99,11 @@ public class ChampionSelect {
                                                 System.out.println("Twitch picked");
                                                 Toolkit.getDefaultToolkit().beep();
                                             }
+                                            else if (team.equals("Blue") && championId.equals("67")) {
+                                                System.out.println("Vayne picked");
+                                                Toolkit.getDefaultToolkit().beep();
+                                            }
+
                                         }
                                     }
                                 }
